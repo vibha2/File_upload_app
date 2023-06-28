@@ -6,7 +6,7 @@ exports.localFileUpload = async (req, res) => {
     try{
         //fetch file, jo bhi send ki hogi
         const file = req.files.file;
-        console.log("File Aagyi hai: ",file);
+        console.log("File Aagyi hai=> ",file);
 
         // here path = server path
         // We mention Date.now() here because it gives every time a diff number,
