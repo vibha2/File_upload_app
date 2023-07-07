@@ -256,3 +256,7 @@ exports.imageReducerUpload = async (req, res) => {
 //Body-formdata key -> value
 // same for ImageReducer
 
+//READ pre & post middleware from here:
+//https://mongoosejs.com/docs/middleware.html
+
+
